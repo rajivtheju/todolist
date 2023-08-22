@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blanchedalmond;
+}
+div{
+    height: fit-content;
+    width:40%;
+    background-color: cadetblue;
+    margin: auto ;
+    margin-top: 5cm;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    font-size: xx-large;
+    padding:20px;
+}
+#todoList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#todoList li {
+    margin: 10px 0;
+}
+#todoList li input[type="checkbox"] {
+    margin-right: 5px;
+}
+::placeholder{
+font-size: medium;
+height: 20px;
+}
